@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="site-nav container" aria-label="Main">
+        <a class="nav-brand" href="index.html">
+          <span class="nav-brand-badge" aria-hidden="true">&lt;/&gt;</span>
+          James Dionisio
+        </a>
+        <input
+          type="checkbox"
+          id="nav-toggle"
+          class="nav-check"
+          aria-hidden="true"
+        />
+        <label
+          for="nav-toggle"
+          class="nav-toggle"
+          aria-label="Toggle navigation"
+          >☰</label
+        >
+        <ul class="nav-menu" id="mainNav">
+          <li>
+            <a class="active" href="index.html" aria-current="page">Home</a>
+          </li>
+          <li><a href="pages/about.html">About Me</a></li>
+          <li><a href="pages/skills.html">Skills</a></li>
+          <li><a href="pages/projects.html">Projects</a></li>
+          <li><a href="pages/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="page-main">
+      <section class="home-hero" aria-labelledby="welcome-heading">
+        <div class="container">
+          <div class="grid hero-grid">
+            <div class="hero-profile">
+              <img
+                class="home-profile-photo"
+                src="images/profile.png"
+                alt="Profile photo of James Dionisio"
+                width="200"
+                height="200"
+              />
+            </div>
+            <div class="hero-copy">
+              <p class="welcome-label">Welcome to my portfolio</p>
+              <h1 id="welcome-heading" class="display-title">
+                Hi, I'm James Dionisio
+              </h1>
+              <p class="hero-intro">
+                I'm a student developer creating clean, fast web experiences
+                while learning Java and JavaFX. I enjoy building projects that
+                are easy to use, well organized, and visually consistent.
+              </p>
+              <div class="flex-wrap">
+                <a class="btn btn-primary" href="pages/projects.html"
+                  >View projects</a
+                >
+                <a class="btn btn-outline" href="pages/contact.html"
+                  >Contact me</a
+                >
+              </div>
+            </div>
+            <div class="intro-card-wrap">
+              <article class="card card-hover">
+                <div class="card-header">
+                  <span aria-hidden="true">◎</span> Quick introduction
+                </div>
+                <div class="card-body">
+                  <p class="small font-mono text-primary mb-2">
+                    /* quick facts */
+                  </p>
+                  <ul class="list-plain small">
+                    <li class="mb-2">
+                      <strong>Focus:</strong> HTML, CSS, JavaScript, Java,
+                      JavaFX
+                    </li>
+                    <li class="mb-2">
+                      <strong>Currently:</strong> Student at Cavite State
+                      University — Bacoor Campus
+                    </li>
+                    <li>
+                      <strong>Goal:</strong> Grow as a developer through real
+                      projects and continuous learning
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-footer">
+                  <p class="text-muted mb-2">James Dionisio</p>
+                  <div class="flex-wrap">
+                    <a href="pages/contact.html">Contact</a>
+                    <span class="text-muted" aria-hidden="true">·</span>
+                    <a
+                      href="https://github.com/Goronomii"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >GitHub</a
+                    >
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer-inner">
+        <p class="mb-0 small">&copy; 2026 James Dionisio.</p>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="pages/about.html">About</a>
+          <a href="pages/skills.html">Skills</a>
+          <a href="pages/projects.html">Projects</a>
+          <a href="pages/contact.html">Contact</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

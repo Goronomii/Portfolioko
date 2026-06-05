@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="pf-surface-cards">
+    <header class="site-header">
+      <nav class="site-nav container" aria-label="Main">
+        <a class="nav-brand" href="../index.html">
+          <span class="nav-brand-badge" aria-hidden="true">&lt;/&gt;</span>
+          James Dionisio
+        </a>
+        <input
+          type="checkbox"
+          id="nav-toggle"
+          class="nav-check"
+          aria-hidden="true"
+        />
+        <label
+          for="nav-toggle"
+          class="nav-toggle"
+          aria-label="Toggle navigation"
+          >☰</label
+        >
+        <ul class="nav-menu" id="mainNav">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li>
+            <a class="active" href="contact.html" aria-current="page"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="page-main pf-shell-page">
+      <section class="page-banner" aria-labelledby="contact-title">
+        <div class="container">
+          <h1 id="contact-title">Contact</h1>
+          <p>Send a message or connect through email and social media.</p>
+        </div>
+      </section>
+
+      <section class="section section-grow">
+        <div class="container">
+          <div class="grid grid-contact">
+            <article class="card shadow-lg contact-form-card card-hover">
+              <h2
+                class="heading-section font-mono text-primary text-white mb-4"
+              >
+                Contact form
+              </h2>
+              <form action="#" method="post">
+                <div class="form-group">
+                  <label class="form-label" for="name">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    required
+                    autocomplete="name"
+                    placeholder="Your name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="email">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    required
+                    autocomplete="email"
+                    placeholder="you@example.com"
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="topic">Topic</label>
+                  <select class="form-select" id="topic" name="topic">
+                    <option value="general">General</option>
+                    <option value="project">Project inquiry</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div class="form-group form-group-lg">
+                  <label class="form-label" for="message">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                    placeholder="Describe your question or idea…"
+                  ></textarea>
+                </div>
+                <div class="flex-wrap">
+                  <button type="submit" class="btn btn-primary">
+                    Send message
+                  </button>
+                </div>
+              </form>
+            </article>
+
+            <aside class="stack">
+              <article class="card card-hover">
+                <div class="card-header">Email</div>
+                <div class="card-body small">
+                  <p class="mb-0">
+                    <a href="mailto:jamesdionisio288@gmail.com"
+                      >jamesdionisio288@gmail.com</a
+                    >
+                  </p>
+                </div>
+              </article>
+
+              <article class="card card-hover">
+                <div class="card-header">Social media</div>
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <a
+                      href="https://github.com/Goronomii"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >GitHub — Goronomii</a
+                    >
+                  </li>
+                  <li class="list-group-item">
+                    <a
+                      href="https://www.facebook.com/james.d.goro"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Facebook — james.d.goro</a
+                    >
+                  </li>
+                  <li class="list-group-item">
+                    <a href="mailto:jamesdionisio288@gmail.com"
+                      >Email — jamesdionisio288@gmail.com</a
+                    >
+                  </li>
+                </ul>
+              </article>
+
+              <article class="card card-hover">
+                <div class="card-header">Location</div>
+                <div class="card-body small">
+                  <p class="mb-0">
+                    Molino II, Bacoor City, Cavite, Philippines
+                  </p>
+                </div>
+              </article>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer-inner">
+        <p class="mb-0 small">&copy; 2026 James Dionisio.</p>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="../index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="skills.html">Skills</a>
+          <a href="projects.html">Projects</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
